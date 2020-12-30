@@ -113,15 +113,15 @@ message MapFieldEntry {
   value_type value = 2;
 }
 
-repeated MapFieldEntry map_field = N;
+// repeated MapFieldEntry map_field = N;
 
-package foo.bar;
-message Open { ... }
-message Foo {
-  ...
-  foo.bar.Open open = 1;
-  ...
-}
+// package foo.bar;
+// message Open { ... }
+// message Foo {
+//   ...
+//   foo.bar.Open open = 1;
+//   ...
+// }
 
 // Defining Services
 service SearchService {

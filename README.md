@@ -50,6 +50,7 @@ rpc HelloServer(stream RequestMessage) returns (ResponseMessage);
 rpc HelloServer(stream RequestMessage) returns (stream ResponseMessage);
 ```
 
+<<<<<<< HEAD
 ## Types
 
 https://developers.google.com/protocol-buffers/docs/proto3
@@ -105,3 +106,5 @@ https://developers.google.com/protocol-buffers/docs/proto3
 * JSON Mapping
 * Options
 * Generating Your Classes
+=======
+>>>>>>> b4283b699eed0af43301cf04e86e238a0f06a865
